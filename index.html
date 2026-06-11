@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BodyFix99 | Osteopathic Manual Therapy Fort McMurray</title>
+  <meta name="description"
+    content="Root-cause osteopathic care for chronic pain, sciatica, neck & shoulder pain, concussion recovery and migraines in Fort McMurray, AB." />
+  <meta name="keywords"
+    content="osteopath Fort McMurray, chronic pain relief Alberta, sciatica treatment, neck pain, concussion recovery, BodyFix99" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="BodyFix99 | Osteopathic Manual Therapy Fort McMurray" />
+  <meta property="og:description"
+    content="Root-cause osteopathic care for chronic pain, sciatica, neck & shoulder pain, concussion recovery and migraines in Fort McMurray." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://bodyfix99.ca/" />
+  <link rel="icon" type="image/png"
+    href="https://bodyfix99.com/wp-content/uploads/2025/07/WhatsApp_Image_2025-06-29_at_10.25.30_PM-removebg-preview-1.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* ── Hero Section ── */
+    .hero-bg {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background:
+        linear-gradient(rgba(5, 55, 55, 0.78), rgba(10, 110, 110, 0.65)),
+        url('images/home.png') center / cover no-repeat;
+      padding: 120px 0 80px;
+    }
+
+    .hero-bg .hero-content {
+      max-width: 680px;
+    }
+
+    .hero-bg h1 {
+      color: #fff;
+      margin-bottom: 24px;
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+    }
+
+    .hero-bg .hero-sub {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .hero-trust-bar {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 48px;
+    }
+
+    .trust-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 999px;
+      padding: 8px 18px;
+      color: #fff;
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    .trust-pill span {
+      font-size: 1rem;
+    }
+
+    /* ── Stats Bar ── */
+    .stats-bar {
+      background: #0a6e6e;
+      padding: 32px 0;
+    }
+
+    .stats-inner {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 24px;
+      text-align: center;
+    }
+
+    .stat-item {
+      color: #fff;
+    }
+
+    .stat-number {
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: #f4a300;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: .85rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 500;
+    }
+
+    /* ── Intro Split ── */
+    .intro-section {
+      padding: 90px 0;
+      background: #fff;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .intro-img {
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(10, 110, 110, 0.18);
+      width: 100%;
+      object-fit: cover;
+      height: 500px;
+    }
+
+    .intro-tag {
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: #0a6e6e;
+      background: #e6f4f4;
+      padding: 5px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    .intro-text h2 {
+      margin-bottom: 20px;
+    }
+
+    .intro-text p {
+      color: #4a4a6a;
+      line-height: 1.8;
+      margin-bottom: 18px;
+      font-size: 1.05rem;
+    }
+
+    .cred-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .cred-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #f8fafb;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: .85rem;
+      font-weight: 600;
+      color: #1a1a2e;
+    }
+
+    .cred-badge span {
+      color: #0a6e6e;
+    }
+
+    @media (max-width: 900px) {
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      .intro-img {
+        height: 320px;
+      }
+    }
+
+    /* ── Services Section ── */
+    .services-home {
+      padding: 90px 0;
+      background: #f8fafb;
+    }
+
+    .services-home .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .services-home .section-header h2 {
+      margin-bottom: 14px;
+    }
+
+    .services-home .section-header p {
+      color: #4a4a6a;
+      max-width: 580px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+    }
+
+    .services-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .svc-card {
+      background: #fff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .07);
+      transition: transform .28s ease, box-shadow .28s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .svc-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 32px rgba(10, 110, 110, .15);
+    }
+
+    .svc-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .svc-card-body {
+      padding: 26px 24px 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .svc-icon {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .svc-card-body h3 {
+      font-size: 1.2rem;
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+
+    .svc-card-body p {
+      color: #4a4a6a;
+      font-size: .93rem;
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 20px;
+    }
+
+    .svc-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #0a6e6e;
+      font-weight: 700;
+      font-size: .9rem;
+    }
+
+    .svc-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+      .services-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 580px) {
+      .services-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ── How It Works ── */
+    .how-section {
+      padding: 90px 0;
+      background: #fff;
+    }
+
+    .how-section .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .how-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      position: relative;
+    }
+
+    .how-steps::before {
+      content: '';
+      position: absolute;
+      top: 36px;
+      left: 12%;
+      right: 12%;
+      height: 2px;
+      background: linear-gradient(90deg, #0a6e6e, #f4a300);
+      z-index: 0;
+    }
+
+    .how-step {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .how-step-num {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #0a6e6e;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 6px 20px rgba(10, 110, 110, .3);
+    }
+
+    .how-step h3 {
+      font-size: 1.05rem;
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+
+    .how-step p {
+      font-size: .9rem;
+      color: #4a4a6a;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .how-steps {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .how-steps::before {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .how-steps {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ── Practitioner Section ── */
+    .practitioner-section {
+      padding: 90px 0;
+      background: #e6f4f4;
+    }
+
+    .practitioner-grid {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .practitioner-card {
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 16px 40px rgba(10, 110, 110, .15);
+    }
+
+    .practitioner-card img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .practitioner-card-info {
+      padding: 28px 28px 32px;
+    }
+
+    .practitioner-card-info h3 {
+      font-size: 1.4rem;
+      color: #0a6e6e;
+      margin-bottom: 4px;
+    }
+
+    .practitioner-card-info .title {
+      font-size: .9rem;
+      color: #4a4a6a;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .practitioner-card-info .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .p-badge {
+      font-size: .78rem;
+      font-weight: 600;
+      color: #0a6e6e;
+      background: #e6f4f4;
+      border-radius: 6px;
+      padding: 4px 10px;
+    }
+
+    .practitioner-text h2 {
+      margin-bottom: 20px;
+    }
+
+    .practitioner-text p {
+      color: #4a4a6a;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+
+    .pract-points {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin: 28px 0 36px;
+    }
+
+    .pract-point {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .pract-point .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #0a6e6e;
+      color: #fff;
+      font-size: .7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+      font-weight: 700;
+    }
+
+    .pract-point p {
+      color: #1a1a2e;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    @media (max-width: 960px) {
+      .practitioner-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .practitioner-card img {
+        height: 280px;
+      }
+    }
+
+    /* ── Testimonials ── */
+    .testimonials-section {
+      padding: 90px 0;
+      background: #fff;
+    }
+
+    .testimonials-section .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .testi-card {
+      background: #f8fafb;
+      border-radius: 16px;
+      padding: 32px 28px;
+      border-left: 4px solid #0a6e6e;
+      position: relative;
+    }
+
+    .testi-stars {
+      color: #f4a300;
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+    }
+
+    .testi-card blockquote {
+      color: #1a1a2e;
+      font-size: .97rem;
+      line-height: 1.75;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    .testi-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .testi-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #0a6e6e;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .testi-name {
+      font-weight: 700;
+      color: #1a1a2e;
+      font-size: .93rem;
+    }
+
+    .testi-condition {
+      font-size: .82rem;
+      color: #7a7a9a;
+    }
+
+    @media (max-width: 900px) {
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ── Location ── */
+    .location-home {
+      padding: 90px 0;
+      background: #f8fafb;
+    }
+
+    .location-home .section-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .location-home-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .location-home-grid iframe {
+      width: 100%;
+      height: 380px;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .1);
+      display: block;
+    }
+
+    .location-info-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .07);
+    }
+
+    .location-info-card h3 {
+      font-size: 1.5rem;
+      color: #0a6e6e;
+      margin-bottom: 28px;
+    }
+
+    .loc-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+
+    .loc-row {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+
+    .loc-row .icon {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .loc-row-text strong {
+      display: block;
+      color: #1a1a2e;
+      font-size: .95rem;
+      margin-bottom: 2px;
+    }
+
+    .loc-row-text span {
+      color: #4a4a6a;
+      font-size: .9rem;
+    }
+
+    .loc-row-text a {
+      color: #0a6e6e;
+      font-weight: 600;
+    }
+
+    @media (max-width: 900px) {
+      .location-home-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ── Final CTA ── */
+    .final-cta {
+      padding: 100px 0;
+      background:
+        linear-gradient(rgba(5, 55, 55, 0.85), rgba(10, 110, 110, 0.80)),
+        url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1400&q=80') center / cover no-repeat;
+      text-align: center;
+    }
+
+    .final-cta h2 {
+      color: #fff;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin-bottom: 18px;
+    }
+
+    .final-cta p {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 1.15rem;
+      max-width: 580px;
+      margin: 0 auto 40px;
+    }
+
+    .cta-btns {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-white {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      color: #0a6e6e;
+      font-weight: 700;
+      font-size: .95rem;
+      padding: 13px 28px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      min-height: 44px;
+      transition: all .28s ease;
+    }
+
+    .btn-white:hover {
+      background: #e6f4f4;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="header-logo" href="index.html">
+        <img
+          src="https://bodyfix99.com/wp-content/uploads/2025/07/WhatsApp_Image_2025-06-29_at_10.25.30_PM-removebg-preview-1.png"
+          alt="BodyFix99 Logo" height="45" onerror="this.style.display='none'">
+        <span>BODYFIX99</span>
+      </a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="sciatica-treatment.html">Sciatica Treatment</a></li>
+          <li><a href="lower-back-pain.html">Lower Back Pain</a></li>
+          <li><a href="neck-shoulder-pain.html">Neck &amp; Shoulder Pain</a></li>
+          <li><a href="concussion-recovery.html">Concussion Recovery</a></li>
+          <li><a href="headaches-migraines.html">Headaches &amp; Migraines</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="https://ramizosteopath.setmore.com/r" target="_blank" class="btn-booknow">Book Now</a>
+      </div>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══ HERO ══════════════════════════════════════════════ -->
+    <section class="hero-bg">
+      <div class="container">
+        <div class="hero-content">
+          <span class="section-tag"
+            style="background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.35);">Fort
+            McMurray's Osteopathic Specialist</span>
+          <h1>Your Body Deserves More Than a Temporary Fix</h1>
+          <p class="hero-sub">We find the structural root cause of your pain and correct it — not just manage it.
+            Osteopathic manual therapy for lasting relief in Fort McMurray.</p>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;">
+            <a href="https://ramizosteopath.setmore.com/r" target="_blank" class="btn-accent"
+              style="background:#f4a300;color:#fff;">Book a Session</a>
+            <a href="#services" class="btn-white">See Our Services</a>
+          </div>
+          <div class="hero-trust-bar">
+            <div class="trust-pill"><span>✓</span> Board Certified</div>
+            <div class="trust-pill"><span>⏱</span> 90-Min Sessions</div>
+            <div class="trust-pill"><span>🎯</span> Root-Cause Approach</div>
+            <div class="trust-pill"><span>📍</span> Fort McMurray, AB</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ STATS BAR ════════════════════════════════════════ -->
+
+    <!-- ══ INTRO / ABOUT ════════════════════════════════════ -->
+    <section class="intro-section">
+      <div class="container">
+        <div class="intro-grid">
+          <div>
+            <img src="images/home.png"
+              alt="Osteopathic treatment session" class="intro-img" loading="lazy">
+          </div>
+          <div class="intro-text">
+            <span class="intro-tag">Why BodyFix99</span>
+            <h2>We Treat the Cause, Not Just the Symptoms</h2>
+            <p>Most clinics address where your pain is. We address <strong>why</strong> your pain keeps coming back.
+              Through precise osteopathic assessment, we map your body's compensation patterns and correct the
+              structural root cause.</p>
+            <p>Whether it's sciatica that's lasted years, neck stiffness after an accident, or post-concussion fog — our
+              approach gets to the actual driver of your condition.</p>
+            <div class="cred-row">
+              <div class="cred-badge"><span>🎓</span> London College of Osteopathy</div>
+              <div class="cred-badge"><span>🏅</span> Canadian Union of Osteopaths</div>
+              <div class="cred-badge"><span>✅</span> Osteopathic Manual Practitioner</div>
+              <div class="cred-badge"><span>📍</span> Fort McMurray, AB</div>
+            </div>
+            <div style="margin-top:36px;">
+              <a href="about.html" class="btn-accent" style="background:#0a6e6e;color:#fff;">Meet the Practitioner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SERVICES ══════════════════════════════════════════ -->
+    <section class="services-home" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Services</span>
+          <h2>Conditions We Specialize In</h2>
+          <p>Every treatment plan is built around your specific structural patterns — no cookie-cutter protocols.</p>
+        </div>
+        <div class="services-cards">
+
+          <div class="svc-card">
+            <img src="images/t2.png" alt="Sciatica Treatment" class="svc-card-img" loading="lazy">
+            <div class="svc-card-body">
+              <div class="svc-icon">🦵</div>
+              <h3>Sciatica Treatment</h3>
+              <p>Releasing spinal nerve compression and resetting pelvic rotation to permanently resolve shooting leg
+                pain and numbness.</p>
+              <a href="sciatica-treatment.html" class="svc-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="svc-card">
+            <img src="images/t3.png" alt="Lower Back Pain" class="svc-card-img" loading="lazy">
+            <div class="svc-card-body">
+              <div class="svc-icon">🔙</div>
+              <h3>Lower Back Pain</h3>
+              <p>Correcting lumbar facet lockouts and deep muscular guarding that causes chronic centralized back ache
+                and stiffness.</p>
+              <a href="lower-back-pain.html" class="svc-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="svc-card">
+            <img src="images/t4.png" alt="Neck and Shoulder Pain" class="svc-card-img" loading="lazy">
+            <div class="svc-card-body">
+              <div class="svc-icon">💆</div>
+              <h3>Neck &amp; Shoulder Pain</h3>
+              <p>Decompressing cervical vertebrae and re-balancing the shoulder girdle to eliminate stiffness and nerve
+                impingement.</p>
+              <a href="neck-shoulder-pain.html" class="svc-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="svc-card">
+            <img src="images/t5.png" alt="Concussion Recovery" class="svc-card-img" loading="lazy">
+            <div class="svc-card-body">
+              <div class="svc-icon">🧠</div>
+              <h3>Concussion Recovery</h3>
+              <p>Gentle cranial mechanics and upper-cervical balancing to help your central nervous system re-stabilize
+                post-trauma.</p>
+              <a href="concussion-recovery.html" class="svc-link">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="svc-card">
+            <img src="images/t6.png" alt="Headaches and Migraines" class="svc-card-img" loading="lazy">
+            <div class="svc-card-body">
+              <div class="svc-icon">🤕</div>
+              <h3>Headaches &amp; Migraines</h3>
+              <p>Addressing suboccipital nerve entrapment and cranial suture strain to reduce headache frequency and
+                severity.</p>
+              <a href="headaches-migraines.html" class="svc-link">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- CTA card -->
+          <div class="svc-card"
+            style="background:linear-gradient(135deg,#0a6e6e,#054545);justify-content:center;align-items:center;padding:40px 28px;text-align:center;">
+            <div style="color:#f4a300;font-size:2.5rem;margin-bottom:16px;">📅</div>
+            <h3 style="color:#fff;margin-bottom:12px;">Not Sure Where to Start?</h3>
+            <p style="color:rgba(255,255,255,0.8);margin-bottom:28px;">Book a 90-minute session and let us assess your
+              body as a whole system.</p>
+            <a href="https://ramizosteopath.setmore.com/r" target="_blank" class="btn-accent"
+              style="background:#f4a300;color:#fff;">Book Now</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ HOW IT WORKS ══════════════════════════════════════ -->
+    <section class="how-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Process</span>
+          <h2>How a BodyFix99 Session Works</h2>
+        </div>
+        <div class="how-steps">
+          <div class="how-step">
+            <div class="how-step-num">1</div>
+            <h3>Full Body Assessment</h3>
+            <p>We map your compensation patterns, not just where the pain is. Every session starts with understanding
+              your whole structure.</p>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">2</div>
+            <h3>Root Cause Identification</h3>
+            <p>We trace the kinetic chain to find the actual structural driver — which is often far from where you feel
+              the pain.</p>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">3</div>
+            <h3>Precision Treatment</h3>
+            <p>Targeted osteopathic techniques release the structural strain pattern. No cracking, no force — working
+              with your nervous system.</p>
+          </div>
+          <div class="how-step">
+            <div class="how-step-num">4</div>
+            <h3>Lasting Correction</h3>
+            <p>Structural correction means the problem doesn't keep returning. The goal is lasting change, not ongoing
+              dependency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ PRACTITIONER ══════════════════════════════════════ -->
+    <section class="practitioner-section">
+      <div class="container">
+        <div class="practitioner-grid">
+          <div class="practitioner-card">
+            <img src="images/nicholas-berisha.jpeg" alt="R. Nicholas Berisha - Osteopathic Practitioner" loading="lazy">
+            <div class="practitioner-card-info">
+              <h3>R. Nicholas Berisha</h3>
+              <p class="title">Osteopathic Manual Practitioner</p>
+              <div class="badges">
+                <span class="p-badge">London College of Osteopathy</span>
+                <span class="p-badge">CUO Member</span>
+                <span class="p-badge">Manual Practitioner</span>
+              </div>
+            </div>
+          </div>
+          <div class="practitioner-text">
+            <span class="intro-tag">Meet the Practitioner</span>
+            <h2>Built for Fort McMurray's Hardest Workers</h2>
+            <p>My practice was shaped by the people of Fort McMurray — workers doing 12–14 hour shifts, living with
+              injuries that kept coming back no matter what they tried. I understand that you need results, not more
+              temporary fixes.</p>
+            <p>Trained at the London College of Osteopathy and a member of the Canadian Union of Osteopaths, I bring
+              precision clinical technique to every session — treating your body as a whole connected system.</p>
+            <div class="pract-points">
+              <div class="pract-point">
+                <div class="dot">✓</div>
+                <p>Member, Canadian Union of Osteopaths (CUO)</p>
+              </div>
+              <div class="pract-point">
+                <div class="dot">✓</div>
+                <p>Member, Canadian Union of Kinesitherapists</p>
+              </div>
+              <div class="pract-point">
+                <div class="dot">✓</div>
+                <p>Trained: London College of Osteopathy</p>
+              </div>
+              <div class="pract-point">
+                <div class="dot">✓</div>
+                <p>Designation: Osteopathic Manual Practitioner</p>
+              </div>
+            </div>
+            <a href="about.html" class="btn-accent" style="background:#0a6e6e;color:#fff;">Read Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ TESTIMONIALS ══════════════════════════════════════ -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Patient Stories</span>
+          <h2>Real Results From Real Patients</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"After years of sciatica flare-ups, two sessions with Nicholas changed everything. He found the
+              actual cause — my pelvis — not just treated my leg."</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">JM</div>
+              <div>
+                <div class="testi-name">James M.</div>
+                <div class="testi-condition">Sciatica — Oil Sands Worker</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"I had post-concussion symptoms for 8 months. The cranial work Nicholas did was so gentle I
+              almost didn't believe it would help — but within a week my brain fog was gone."</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">SR</div>
+              <div>
+                <div class="testi-name">Sarah R.</div>
+                <div class="testi-condition">Concussion Recovery</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>"I was getting migraines 3-4 times a week. After the headache protocol, I'm down to maybe once a
+              month. The structural approach makes total sense."</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">TK</div>
+              <div>
+                <div class="testi-name">Tanya K.</div>
+                <div class="testi-condition">Migraines &amp; Headaches</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ LOCATION ══════════════════════════════════════════ -->
+    <section class="location-home">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Find Us</span>
+          <h2>Located in the Heart of Fort McMurray</h2>
+        </div>
+        <div class="location-home-grid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2339.123456!2d-111.3801!3d56.7265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sNomad+Hotel+Fort+McMurray!5e0!3m2!1sen!2sca!4v1"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="BodyFix99 Location Map">
+          </iframe>
+          <div class="location-info-card">
+            <h3>Visit Our Clinic</h3>
+            <div class="loc-rows">
+              <div class="loc-row">
+                <span class="icon">📍</span>
+                <div class="loc-row-text">
+                  <strong>Address</strong>
+                  <span>Nomad Hotel, 10006 MacDonald Avenue,<br>Fort McMurray, AB T9H 1S8</span>
+                </div>
+              </div>
+              <div class="loc-row">
+                <span class="icon">📞</span>
+                <div class="loc-row-text">
+                  <strong>Phone</strong>
+                  <span><a href="tel:7803356705">780-335-6705</a></span>
+                </div>
+              </div>
+              <div class="loc-row">
+                <span class="icon">✉️</span>
+                <div class="loc-row-text">
+                  <strong>Email</strong>
+                  <span><a href="mailto:fixme@bodyfix99.com">fixme@bodyfix99.com</a></span>
+                </div>
+              </div>
+              <div class="loc-row">
+                <span class="icon">🕐</span>
+                <div class="loc-row-text">
+                  <strong>Hours</strong>
+                  <span>Monday – Sunday: 9:00 AM – 9:00 PM</span>
+                </div>
+              </div>
+            </div>
+            <a href="https://ramizosteopath.setmore.com/r" target="_blank" class="btn-accent"
+              style="background:#f4a300;color:#fff;width:100%;justify-content:center;">Book an Appointment</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ FINAL CTA ════════════════════════════════════════ -->
+    <section class="final-cta">
+      <div class="container">
+        <h2>Ready to Fix the Root Cause — For Good?</h2>
+        <p>Book your 90-minute session with Fort McMurray's osteopathic specialist. No referral needed.</p>
+        <div class="cta-btns">
+          <a href="https://ramizosteopath.setmore.com/r" target="_blank" class="btn-accent"
+            style="background:#f4a300;color:#fff;padding:15px 36px;font-size:1rem;">Book Now</a>
+          <a href="contact.html" class="btn-white">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+            <img style="height:45px;width:auto;"
+              src="https://bodyfix99.com/wp-content/uploads/2025/07/WhatsApp_Image_2025-06-29_at_10.25.30_PM-removebg-preview-1.png"
+              alt="BodyFix99 Logo" onerror="this.style.display='none'" />
+            <span style="font-size:20px;font-weight:800;color:#ffffff;">BODYFIX99</span>
+          </div>
+          <p class="footer-tagline">Osteopathic Manual Therapy — Root-cause care for chronic pain &amp; mobility in Fort
+            McMurray.</p>
+          <div
+            style="display:flex;align-items:center;gap:14px;margin:20px 0;background:rgba(255,255,255,0.06);border-radius:12px;padding:14px 16px;">
+            <img src="images/nicholas-berisha.jpeg" alt="R. Nicholas Berisha"
+              style="width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #0a6e6e;flex-shrink:0;"
+              onerror="this.style.display='none'" />
+            <div>
+              <p style="font-weight:700;color:#ffffff;font-size:.95rem;margin-bottom:2px;">R. Nicholas Berisha</p>
+              <p style="font-size:.82rem;color:#9090b0;">Osteopathic Manual Practitioner</p>
+              <p style="font-size:.82rem;color:#9090b0;">London College of Osteopathy</p>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a class="social-icon" href="https://facebook.com/bodyfix99" target="_blank" rel="noopener"
+              aria-label="Facebook">f</a>
+            <a class="social-icon" href="https://instagram.com/bodyfix99" target="_blank" rel="noopener"
+              aria-label="Instagram">in</a>
+            <a class="social-icon" href="https://linkedin.com/company/bodyfix99" target="_blank" rel="noopener"
+              aria-label="LinkedIn">li</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-heading">Contact Us</p>
+          <div class="footer-contact">
+            <div class="footer-contact-item">
+              <span class="icon">📍</span>
+              <span>Nomad Hotel, 10006 MacDonald Avenue,<br />Fort McMurray, AB T9H 1S8</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon">📞</span>
+              <span><a href="tel:7803356705" style="color:inherit;">780-335-6705</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon">✉️</span>
+              <span><a href="mailto:fixme@bodyfix99.com" style="color:inherit;">fixme@bodyfix99.com</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon">🕐</span>
+              <span>Monday – Sunday: 9:00 AM – 9:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 BodyFix99. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
